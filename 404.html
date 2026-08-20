@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Senza questo file qualsiasi indirizzo storto risponde "va tutto bene" e
+     mostra la home: per una persona è spaesante, per Google sono pagine
+     fantasma. -->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, follow">
+<title>Pagina non trovata — La Mangiatoia</title>
+<meta name="description" content="La pagina cercata non esiste. Torna alla home della Mangiatoia, in via Leonardo da Vinci 2 ad Alassio, oppure chiama lo 0182 640053.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230D0C0B'/%3E%3Ctext x='32' y='44' font-family='Impact,Haettenschweiler,sans-serif' font-size='34' text-anchor='middle' fill='%23F0B40C'%3ELM%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#0D0C0B">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;min-height:100svh;
+  background:#0D0C0B;color:#F2EAD8;
+  font-family:"Barlow Semi Condensed","Trebuchet MS",Arial,sans-serif;
+  display:flex;align-items:center;justify-content:center;
+  padding:32px 24px;text-align:center;
+}
+.dentro{max-width:44ch}
+.marchio{width:min(240px,64vw);height:auto;margin:0 auto 30px}
+h1{
+  font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;
+  text-transform:uppercase;letter-spacing:.01em;line-height:.98;
+  font-size:clamp(30px,7vw,48px);margin:0 0 14px;text-wrap:balance;
+}
+h1 em{font-style:normal;color:#F0B40C}
+p{margin:0 0 26px;line-height:1.7;color:#BFB6A4;text-wrap:pretty}
+.tasti{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+a{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:50px;padding:13px 26px;
+  font-size:14px;font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;text-decoration:none;
+}
+.pieno{background:#F0B40C;color:#12100C}
+.vuoto{border:2px solid rgba(242,234,216,.4);color:#F2EAD8}
+</style>
+</head>
+<body>
+  <div class="dentro">
+    <img src="img/logo-chiaro.png" alt="La Mangiatoia · craft beer · Alassio" class="marchio" width="563" height="600">
+    <h1>Questa pagina <em>non c'è</em></h1>
+    <p>L'indirizzo è&nbsp;sbagliato o&nbsp;la&nbsp;pagina è&nbsp;stata spostata. Gli&nbsp;orari, il&nbsp;menù e&nbsp;il&nbsp;numero per&nbsp;prenotare sono tutti sulla&nbsp;home.</p>
+    <div class="tasti">
+      <a href="/" class="pieno">Torna alla home</a>
+      <a href="tel:+390182640053" class="vuoto">0182 640053</a>
+    </div>
+  </div>
+</body>
+</html>
